@@ -46,12 +46,12 @@ class MyApp(QWidget):
 
 
         # save map data to data object
-        data = io.BytesIO()
-        m.save(data, close_file=False)
-
-        webView = QWebEngineView()
-        webView.setHtml(data.getvalue().decode())
-        layout.addWidget(webView)
+        # data = io.BytesIO()
+        # m.save(data, close_file=False)
+        #
+        # webView = QWebEngineView()
+        # webView.setHtml(data.getvalue().decode())
+        # layout.addWidget(webView)
 
 
 if __name__ == '__main__':
